@@ -1,0 +1,13 @@
+import math
+
+# Mensagem inicial
+print("Olá! Vamos descobrir a raiz quadrada de um número inteiro.")
+
+# Solicitar um número ao usuário
+numero = int(input("Por favor, digite um número inteiro: "))
+
+# Calcular a raiz quadrada
+raiz_quadrada = math.sqrt(numero)
+
+# Mostrar o resultado de forma amigável
+print(f"A raiz quadrada de {numero} é aproximadamente {raiz_quadrada:.2f}.")
