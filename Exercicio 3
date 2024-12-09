@@ -1,0 +1,10 @@
+import string
+
+# Definir a string para verificação
+texto = "12345"
+
+# Verificar se a string contém apenas dígitos
+apenas_digitos = all(char in string.digits for char in texto)
+
+# Exibir o resultado
+print(f"A string '{texto}' contém apenas dígitos? {apenas_digitos}")
