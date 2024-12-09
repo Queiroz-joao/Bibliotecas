@@ -1,0 +1,23 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Criar os valores para o eixo x
+x = np.linspace(0, 2 * np.pi, 100)
+
+# Calcular o seno para os valores de x
+y = np.sin(x)
+
+# Plotar a função seno
+plt.plot(x, y, label='y = sin(x)', color='blue')
+
+# Configurar o gráfico
+plt.title("Gráfico da Função Seno")
+plt.xlabel("x (radianos)")
+plt.ylabel("y")
+plt.axhline(0, color='black', linewidth=0.8, linestyle="--")  # Linha no eixo y=0
+plt.axvline(0, color='black', linewidth=0.8, linestyle="--")  # Linha no eixo x=0
+plt.grid(True, linestyle='--', alpha=0.6)  # Adicionar uma grade leve
+plt.legend()
+
+# Exibir o gráfico
+plt.show()
