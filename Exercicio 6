@@ -1,0 +1,8 @@
+import numpy as np
+
+# Criar uma matriz 3x3 de zeros
+matriz_zeros = np.zeros((3, 3))
+
+# Exibir a matriz
+print("Matriz 3x3 de zeros:")
+print(matriz_zeros)
