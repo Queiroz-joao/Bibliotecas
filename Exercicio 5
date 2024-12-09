@@ -1,0 +1,7 @@
+import numpy as np
+
+# Criar um array com os números de 1 a 10
+array_numeros = np.arange(1, 11)
+
+# Exibir o array
+print("Array criado:", array_numeros)
